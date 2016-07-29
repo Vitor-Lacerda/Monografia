@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}
+
+\bibitem{bong2008integrated}
+DBL Bong, KC~Ting, and KC~Lai.
+\newblock Integrated approach in the design of car park occupancy information
+  system (coins).
+\newblock {\em IAENG International Journal of Computer Science}, 35(1):7--14,
+  2008.
+
+\bibitem{chen2012dynamic}
+Wen-Yuan Chen and Chuin-Mu Wang.
+\newblock The dynamic background generation scheme using an image frame
+  statistical comparison method.
+\newblock {\em International Journal of Advancements in Computing Technology},
+  4(18), 2012.
+
+\bibitem{de2006introduccao}
+Jos{\'e} Eust{\'a}quio~Rangel de~Queiroz and Herman~Martins Gomes.
+\newblock Introdu{\c{c}}{\~a}o ao processamento digital de imagens.
+\newblock {\em RITA}, 13(2):11--42, 2006.
+
+\bibitem{delibaltov2013parking}
+Diana Delibaltov, Wencheng Wu, Robert~P Loce, Edgar Bernal, et~al.
+\newblock Parking lot occupancy determination from lamp-post camera images.
+\newblock In {\em Intelligent Transportation Systems-(ITSC), 2013 16th
+  International IEEE Conference on}, pages 2387--2392. IEEE, 2013.
+
+\bibitem{ford1998colour}
+Adrian Ford and Alan Roberts.
+\newblock Colour space conversions.
+\newblock {\em Westminster University, London}, 1998:1--31, 1998.
+
+\bibitem{gonzalez2009digital}
+Rafael~C Gonzalez.
+\newblock {\em Digital image processing}.
+\newblock Pearson Education India, 2009.
+
+\bibitem{graciano2007rastreamento}
+Ana Beatriz~Vicentim Graciano.
+\newblock {\em Rastreamento de objetos baseado em reconhecimento estrutural de
+  padroes}.
+\newblock PhD thesis, Universidade de S{\~a}o Paulo, 2007.
+
+\bibitem{hai2009self}
+Zhai Hai-tao, Wu~Jian, Xia Jie, and Cui Zhi-ming.
+\newblock Self-adaptive detection of moving vehicles in traffic video.
+\newblock In {\em The 2009 International Symposium on Web Information Systems
+  and Applications (WISA 2009)}, page 449, 2009.
+
+\bibitem{IBGE2000introducao}
+IBGE.
+\newblock {\em Introdução ao processamento digital de imagens}.
+\newblock IBGE, 2000.
+
+\bibitem{kianpisheh2012smart}
+Amin Kianpisheh, Norlia Mustaffa, Pakapan Limtrairut, and Pantea
+  Keikhosrokiani.
+\newblock Smart parking system (sps) architecture using ultrasonic detector.
+\newblock {\em International Journal of Software Engineering and Its
+  Applications}, 6(3):55--58, 2012.
+
+\bibitem{malpica1997applying}
+Norberto Malpica, Carlos Ortiz~de Solorzano, Juan~Jos{\'e} Vaquero, Andr{\'e}s
+  Santos, Isabel Vallcorba, Jos{\'e}~Miguel Garcia-Sagredo, and Francisco~del
+  Pozo.
+\newblock Applying watershed algorithms to the segmentation of clustered
+  nuclei.
+\newblock 1997.
+
+\bibitem{marques1999processamento}
+Og{\^e} Marques~Filho and Hugo~Vieira Neto.
+\newblock {\em Processamento digital de imagens}.
+\newblock Brasport, 1999.
+
+\bibitem{idris09}
+Idris M.Y.I, Leng Y.Y, et~al.
+\newblock Car park system: A review of smart parking system and its technology.
+\newblock {\em Information Technology Journal}, 8(8):101--113, June 2009.
+
+\bibitem{pele2010quadratic}
+Ofir Pele and Michael Werman.
+\newblock The quadratic-chi histogram distance family.
+\newblock In {\em Computer Vision--ECCV 2010}, pages 749--762. Springer, 2010.
+
+\bibitem{plataniotis2000color}
+Konstantinos~N Plataniotis and Anastasios~N Venetsanopoulos.
+\newblock {\em Color image processing and applications}.
+\newblock Springer Science \& Business Media, 2000.
+
+\bibitem{rubner2000earth}
+Yossi Rubner, Carlo Tomasi, and Leonidas~J Guibas.
+\newblock The earth mover's distance as a metric for image retrieval.
+\newblock {\em International journal of computer vision}, 40(2):99--121, 2000.
+
+\bibitem{shoushtarian2003practical}
+B~Shoushtarian.
+\newblock A practical approach to real-time dynamic background generation based
+  on a temporal median filter.
+\newblock {\em Journal of Sciences, Islamic Republic of Iran}, 14(4):351--362,
+  2003.
+
+\bibitem{true2007vacant}
+Nicholas True.
+\newblock Vacant parking space detection in static images.
+\newblock {\em University of California, San Diego}, 2007.
+
+\bibitem{vkl1989jain}
+AI~VKL.
+\newblock Jain,“fundamentals of digital image processing,”, 1989.
+
+\bibitem{zhang2014comparison}
+Qianwen Zhang and Roxanne~L Canosa.
+\newblock A comparison of histogram distance metrics for content-based image
+  retrieval.
+\newblock In {\em IS\&T/SPIE Electronic Imaging}, pages 90270O--90270O.
+  International Society for Optics and Photonics, 2014.
+
+\end{thebibliography}

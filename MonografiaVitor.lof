@@ -1,0 +1,26 @@
+\select@language {american}
+\select@language {american}
+\select@language {brazil}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces (a) Uma imagem; (b)O seu histograma \cite {marques1999processamento}\relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o da equaliza\IeC {\c c}\IeC {\~a}o de histograma a uma figura de baixo contraste. (b) mostra o histograma de (a) e (d) mostra o histograma de (c) \cite {marques1999processamento}\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces (a) Uma imagem de um estacionamento; (b) A mesma imagem binarizada atrav\IeC {\'e}s da t\IeC {\'e}cnica utilizada na se\IeC {\c c}\IeC {\~a}o \ref {segmentacaoVeiculos}\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces (a) O fundo em um determinado quadro em um v\IeC {\'\i }deo; (b) O fundo em um outro quadro do mesmo v\IeC {\'\i }deo alguns segundos depois; (c) A imagem resultante da subtra\IeC {\c c}\IeC {\~a}o entre (a) e (b) binarizada.\relax }}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces (a) Uma imagem bin\IeC {\'a}ria; (b) O elemento estrutrante a ser utilizada na dilata\IeC {\c c}\IeC {\~a}o; (c) A imagem resultando do processo de dilata\IeC {\c c}\IeC {\~a}o, com os pixels adicionados pintados de azul para facilitar a visualiza\IeC {\c c}\IeC {\~a}o\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces (a) Uma imagem bin\IeC {\'a}ria; (b) O elemento estrutrante a ser utilizada na eros\IeC {\~a}o; (c) A imagem resultando do processo de eros\IeC {\~a}o\relax }}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o visual do funcionamento do espa\IeC {\c c}o de cor HSV\relax }}{19}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A esquerda: a imagem de diferen\IeC {\c c}a D. Ao centro: D binarizada com a t\IeC {\'e}cnica descrita acima. A direita: o histograma de D\relax }}{22}{figure.caption.15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) Um carro aparecendo na cena ; (b)O mesmo carro estacionado em uma vaga; (c) O rastro gerado pelo programa\relax }}{24}{figure.caption.16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Imagens representando o processo de gera\IeC {\c c}\IeC {\~a}o do fundo din\IeC {\^a}mico. No topo o quadro do v\IeC {\'\i }deo e a m\IeC {\'a}scara obtida. No centro a imagem do fundo anterior na regi\IeC {\~a}o da m\IeC {\'a}scara e a m\IeC {\'e}dia entre os valores do quadro atual e do fundo anterior nos outros pontos e abaixo o fundo novo constru\IeC {\'\i }do. \relax }}{27}{figure.caption.17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) O histograma $H_{1}$ da figura \ref {Subtracao:sfig1} na \IeC {\'a}rea indicada por \ref {Subtracao:sfig3}; (b)O histograma $H_{2}$ da figura \ref {Subtracao:sfig2} na \IeC {\'a}rea indicada por \ref {Subtracao:sfig3}\relax }}{29}{figure.caption.18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces (a) O estacionamento vazio; (b) Quatro carros estacionados; (c) As indica\IeC {\c c}\IeC {\~o}es de ocupa\IeC {\c c}\IeC {\~a}o das vagas em (b); (d) Dois carros estacionados; (e) As indica\IeC {\c c}\IeC {\~o}es dos estados das vagas em (d)\relax }}{32}{figure.caption.19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (a) Quatro carros estacionados; (b) Dois carros estacionados; (c) As manchas que indicam aonde houve diferen\IeC {\c c}a entre as duas imagens.\relax }}{33}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces As diferentes regi\IeC {\~o}es da imagem de fundo que s\IeC {\~a}o analisadas no caso apresentado na figura \ref {regioesDiferencaTesteFig}. Na parte superior da esquerda para a direita: vagas 5, 15 e 17. Na parte inferior vagas 4, 10 e 14.\relax }}{34}{figure.caption.21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces (a)O histograma de controle; (b) Os histogramas das imagens apresentadas em \ref {regioesPequenasTesteFig:sfig1}; (c) Os histogramas das imagens apresentadas em \ref {regioesPequenasTesteFig:sfig2};\relax }}{35}{figure.caption.22}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces (a) e (b) um quadro do v\IeC {\'\i }deo de um estacionamento e o fundo correspondente; (c) e (d) um quadro de um dos v\IeC {\'\i }deos de tr\IeC {\'a}fego e o seu fundo correspondente.\relax }}{37}{figure.caption.24}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A segmenta\IeC {\c c}\IeC {\~a}o do algoritmo de gera\IeC {\c c}\IeC {\~a}o de fundo quadro na figura \ref {figTestesFundos:sfig3}.\relax }}{38}{figure.caption.25}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces O rastro de dois carros em um v\IeC {\'\i }deo de um estacionamento.\relax }}{39}{figure.caption.26}
+\addvspace {10\p@ }

@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classe do documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Nós usamos a classe "unb-cic".  Deixe apenas uma das linhas
+% abaixo não-comentada, dependendo se você for do bacharelado ou
+% da licenciatura.
+
+\documentclass[bacharelado]{unb-cic}
+%\documentclass[licenciatura]{unb-cic}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pacotes importados
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[brazil,american]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{natbib}
+\usepackage{xcolor,graphicx,url}
+\usepackage{subcaption}
+\usepackage[utf8]{inputenc}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Caminho das imagens
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{ {imagens/} }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cores dos links
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Veja o arquivos cores.tex se quiser ver que outras cores estão
+% pré-definidas.  Utilizando o comando \hypersetup abaixo nós
+% evitamos aquelas caixas vermelhas feias em volta dos links.
+
+\input{cores}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=DarkScarletRed,
+  citecolor=DarkScarletRed,
+  filecolor=DarkScarletRed,
+  urlcolor= DarkScarletRed
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Informações sobre a monografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Detecção e monitoramento de vagas disponíveis em estacionamentos abertos através de processamento de imagens}
+
+\orientador{\prof \dr Alexandre Zaghetto}{CIC/UnB}
+%\coorientador[a]{\prof[a] \dr[a] Coorientadora}{MAT/UnB}
+\coordenador{\prof \dr Coordenador}{CIC/UnB}
+\diamesano{10}{setembro}{2015}
+
+\membrobanca{\prof \dr Professor I}{CIC/UnB}
+\membrobanca{\prof \dr Professor II}{CIC/UnB}
+
+\autor{Vitor de Alencastro}{Lacerda}
+\CDU{004.4}
+
+\palavraschave{Estacionamento, Processamento de Imagens, Vagas livres }
+\keywords{Parking lot, Image processing, Free Spaces}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Texto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+  \maketitle
+  \pretextual
+
+  \begin{dedicatoria}
+  Dedico a....
+  \end{dedicatoria}
+
+  \begin{agradecimentos}
+  Agradeço a....
+  \end{agradecimentos}
+
+  \begin{resumo}
+  Soluções para a detecção e monitoramento do estado de vagas em estacionamentos tradicionalmente tem sido implementadas através do uso de sensores físicos posicionados nas vagas do estacionamento e costumam não estar presentes em estacionamentos abertos. Esse paper propõe um solução para esse problema através de processamento de imagens obtidas com uma câmera de vídeo posicionada em uma posição adequada sobre o estacionamento.
+  \end{resumo}
+
+  \selectlanguage{american}
+  \begin{abstract}
+  My abstract lorem ipsum
+  \end{abstract}
+  \selectlanguage{brazil}
+
+  \tableofcontents
+  \listoffigures
+  \listoftables
+
+  \textual
+  \input{capitulos/capitulo1}
+  \input{capitulos/capitulo2}
+  \input{capitulos/capitulo3}
+  \input{capitulos/capitulo4}
+  \input{capitulos/capitulo5}
+  % ...
+
+  \postextual
+  \bibliographystyle{plain}
+  \bibliography{bibliografia}
+
+\end{document}

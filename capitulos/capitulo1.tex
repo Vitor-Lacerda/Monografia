@@ -1,0 +1,52 @@
+\chapter{Introdução} \label{introducao}
+
+
+\section{Motivação} \label{motivacao}
+    O crescimento constante das grandes cidades ao redor do mundo traz consigo diversos desafios relacionados à mobilidade urbana e gerência de veículos. A frota de veículos no mundo continua a crescer com o passar dos anos e vários problemas, das mais diversas naturezas, surgem desse aumento. É preciso então, cada vez mais, encontrar soluções inteligentes e eficientes para lidar com as situações que emergem. Programas de melhoria e estímulo ao transporte coletivo, redução de emissões de veículos e novas tecnologias de consumo de combustível têm sido eficazes em batalhar esses problemas, mas ainda há muito espaço a ser explorado para resolver os diversos desafios que aparecem com o crescimento da frota de veículos.
+
+    Um problema de particular interesse para os moradores de grandes cidades é o da disponibilidade de vagas de estacionamento em espaços comercias e residenciais. Com o número crescente de veículos, a demanda por espaços onde um cidadão possa parar seu carro aumenta exponencialmente e com o aumento dessa demanda, se inicia uma busca por mais espaços onde se possa construir estacionamentos e métodos para facilitar a tarefa de se encontrar vagas livres.
+
+    Muitos motoristas nos maiores centros metropolitanos perdem uma quantidade considerável de tempo todos os dias no seu deslocamento entre a sua casa e seu trabalho procurando uma vaga disponível para estacionar seu veículo. Além disso, o mesmo motorista ainda perde mais tempo buscando vagas em grandes estabelecimentos comerciais como \textit{shoppings} ou supermercados.
+
+    Tempo perdido não é o único problema que surge na dificuldade de se estacionar o carro. Quanto mais tempo esses carros rodam atrás de espaços disponíveis, mais combustível é gasto e com isso mais dinheiro se perde e  mais poluentes são liberados na atmosfera. É fácil então perceber que reduzir o tempo gasto na procura de uma vaga de estacionamento, tem impacto não só na vida de um indíviduo, mas também no meio ambiente e na vida financeira do cidadão. É claro que em uma escala individual essa redução tem pequeno impacto, mas em uma escala global, otimizar a busca por vagas traz grandes benefícios.
+
+    Os benefícios de um sistema que facilite a tarefa de estacionar vão ainda mais além. Otimizar estacionamentos pode ser uma poderosa jogada de marketing. Um negócio que possua um sistema facilitador para o estacionamento instalado atrai novos clientes, que apreciam não ter que passar pela árdua tarefa de procurar vagas. Uma boa logística para estacionamentos pode ser um fator que diferência um estabelecimento dos seus concorrentes e o coloca acima dos demais.
+
+    Estacionamentos rotativos também têm grande interesse em sistemas dessa natureza. Eles permitiriam que o estacionamento informasse as vagas atualmente livres para os seus clientes. Mais ainda,  se é possível detectar vagas livres, é possível também obter informações sobre as vagas ocupadas como tempo de permanência do veículo que a ocupa atualmente e tempo disponível restante. Sendo assim, é possível automatizar completamente o funcionamento do estacionamento rotativo, economizando uma grande quantidade de dinheiro. É possível também utilizar as informações obtidas pelo programa para encontrar padrões de estacionamento e horários de pico e ajustar preços de acordo com esses dados\cite{idris09}.
+
+    Outra dificuldade encontrada nos estacionamentos é a de veículos estacionados de forma imprópria\cite{kianpisheh2012smart}. Veículos que ocupam mais de uma vaga podem impedir que outros usuários se aproveitem do espaço disponível. Um sistema de monitoramento de ocupação das vagas poderia ajudar a minimizar esse problema.
+
+    É muito fácil então perceber que otimizar a tarefa de estacionar tem impacto não só no comforto individual, mas também econômico e ambiental. De fato, muitas soluções já foram propostas e implementados e serão apresentadas na seção \ref{solucoes} abaixo. Porém a maioria dessas soluções são caras e difíceis de implementar. Além disso, focam principalmente em otimizar estacionamentos fechados, como garagens. É preciso também encontrar soluções baratas e eficientes para facilitar a busca e monitoramento de vagas em estacionamentos abertos, como aqueles encontrados comumente em supermercados.
+
+\section{Objetivo} \label{objetivo}
+    O objetivo deste trabalho é apresentar um \textit{software} capaz de interpretar as imagens em câmera que está filmando um estacionamento e detectar quantas vagas estão disponíveis, a posição dessas vagas, a quanto tempo as vagas ocupadas estão ocupadas e disponibilizar essas informações. Além disso o programa será capaz de determinar padrões de uso do estacionamento depois de um determinado tempo de execução, como tempo médio de ocupação, horários de pico e vagas mais populares. Esse \textit{software} deve ser capaz de auxiliar donos de estabelecimentos comerciais e de estacionamentos rotativos a melhorar os seus serviços nessa área.
+
+
+
+\section{Soluções existentes} \label{solucoes}
+    Se sistemas de otimização de estacionamento trazem tantas vantagens, é de se imaginar que já se tenham sido buscadas e encontradas várias soluções para esse problema. De fato, é uma área de grande interesse e diversas alternativas já foram encontradas.
+
+    Os chamados sistemas inteligentes de estacionamento, ou \textit{smart parking systems}(SPS) podem ser dividos em cinco grandes categorias\cite{idris09}: sistemas de orientação e informação para estacionamento, sistemas baseados em informação de trânsito, sistemas de pagamento inteligente, E-parking e estacionamentos automatizados.
+
+    Embora a discussão aprofundada de cada uma desses tipos de sistema não seja de grande interesse para esse trabalho, todas os sistemas, independente da categoria a que pertecem compartilham uma necessidade: determinar a ocupação das vagas em um estacionamento. Existem várias formas de se detectar se um carro está estacionado em uma determinada vaga, incluindo sistemas de processamento de imagens e uma variedade enorme de sensores diferentes.
+
+    Os sistemas de obtem informação sobre o ocupação atual de estacionamentos normalmente são de uma de quatro formas\cite{bong2008integrated}: aqueles que se usam de contadores, sensores ligados a fio, sensores \textit{wireless} e sistemas baseados em imagem.
+
+    Podemos ainda dividir esses sistemas em duas categorias: os intrusivos e os não intrusivos\cite{idris09}. Sistemas intrusivos normalmente estão instalados sob o asfalto ou dentro do concreto da estrutura do estacionamento. Esses sistemas são mais caros e de expansão muito mais difícil. Sistemas não-intrusivos são aqueles que podem ser instalados externamente. Eles são muito mais econômicos, porém normalmente exigem que sejam instalados sensores individuais em cada vaga e são portanto, pouco expasíveis.
+
+    Os sistemas baseados em contadores normalmente se utilizam de algum sensor nas entradas e saídas do estacionamento que detectam quando um veículo passa por eles. Esses sistemas, apesar de baratos e de fácil manutenção podem apenas determinar o número total de vagas livres ou ocupadas, sem indicar a posição dos espaços disponíveis para os usuários.
+
+    Os sistemas baseados em sensores, com ou sem fio, normalmente contam com um sensor individual para cada vaga. Esses sensores podem ser de diversos tipos: balanças, tubos pneumáticos, sensores infravermelhos, magnéticos ou de ultrasom, entre outros. Muitos fatores diferentes afetam a escolha do sensor ideal para um determinado caso, como facilidade de instalação, preço e facilidade de expansão e manutenção. Os sistemas de sensores cabeados têm sido substituídos por sistemas de tecnologia \textit{wireless} a medida que esse tecnologia cresce.
+
+    Todas essas soluções porém, tem sido normalmente implementadas em garagens e outros estacionamentos fechados. Alguns exemplos, principalmente aqueles que são instalados no teto, como os sensores de ultrasom, só podem ser utilizados nesse tipo de estacionamento. Nesses casos, é possível instalar os sensores durante a construção da estrutura. Estacionamentos fechados estacionamentos também não costumam aumentar seu tamanho ou número de vagas disponíveis com o passar do tempo. Para estacionamentos abertos, é preciso encontrar outra solução.
+
+    Os sistemas que usam processamento de imagem normalmente se aproveitam da imagem capturada por uma câmera, que pode fazer um papel dobrado como câmera de segurança, para determinar o estado das vagas do estacionamento. Uma câmera normalmente é responsável por um grande conjunto de vagas e pode ser instalada em poste de luz ou em um outro espaço construído especificamente para ela. A câmera envia as imagens para um computador central que possui um \textit{software} capaz de interpretar essas imagens para determinar quais vagas estão vazias. Um sistema desse tipo é ideal para o objetivo deste trabalho. Além disso são baratos e de fácil manutenção e escalabilidade.
+
+    Existem diversas soluções para sistemas baseados em visão computacional para a determinação de ocupação em estacionamento. Alguns \textit{softwares} se utilizam de modelagem tridimensional e cálculos de probabilidade para detecção contínua em vídeo.\cite{delibaltov2013parking}. Outros são aplicados em imagens estáticas e se utilizam de classifições de pixels para determinar a posição de veículos \cite{true2007vacant}. Soluções diferentes podem detectar as vagas automaticamente ou através de \textit{input} de usuários.
+
+    O sistema proposto nesse trabalho se utiliza de geração dinâmica de fundo e técnicas de subtração de \textit{background} para determinar o estado de cada vaga presente na imagem. Para a determinação das vagas, basta uma calibração inicial no momento da instalação.
+
+
+
+
+
